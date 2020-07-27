@@ -1,9 +1,13 @@
 {
   "manifest_version": 2,
   "name": "Amazon Mini URL Picker",
-  "version": "0.0.0.1",
+  "version": "0.0.0.2",
 
   "description": "Amazon商品ページURLの不要な部分を取り除き、短いURLをクリップボードにコピーします。",
+
+  "icons": {
+    "128": "icons/icon128.png"
+  },
 
   "content_scripts": [
     {
